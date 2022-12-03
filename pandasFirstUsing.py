@@ -20,7 +20,7 @@ while True:
     RowData = {"name": DataName,
                "age": DataAge,
                "specialty": DataSpec,
-               "Email": email}
+               "Email": DataEmail}
 
     df1 = pd.DataFrame(RowData)
     print(df1)
